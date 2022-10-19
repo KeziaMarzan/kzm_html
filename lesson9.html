@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Java and HTML</title>
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="lesson.css">
+    </head>
+<body>
+
+<!---header------>
+<header>
+    <!--Nav-->
+    <div class="nav container">
+    <!----logo----->
+    <a href="index.html" class="logo">HTML<span>Tutorial</span></a>
+    <!--- Register Btn --->
+    <a href="form.html" class="register">Register</a>
+</div>
+</header>
+
+
+
+<!--- Posts Content ---->
+<section class="post-header">
+    <div class="header-content post-container">
+    <!-- Back to Home -->
+<a href="lesson.html" class="back-home">Back To Home</a>
+<!--------------Title-------------->
+<h1 class="header-title">How HMTL and Java Work?</h1>
+
+
+<!-- Post Image -->
+<img src="nine.png" alt="" class="header-img">
+</div>
+</section>
+
+
+<!---------- Post -------------->
+<section class="post-content post-container">
+    <h2 class="highlight">JAVASCRIPT and HTML</h2>
+    <p class="post-text">The introduction of JavaScript into web pages immediately ran into the Web's primary language, HTML. 
+        As the component of its original work on JavaScript, Netscape tried to find out how to make JavaScript coexist in HTML pages 
+        without causing any breaks on those pages, rendering in other browsers. Through trial and error and controversy, several decisions 
+        were finally made and agreed upon to bring universal scripting support to the Web. Most of the work done in these early days of the
+         Web has endured and become official in the HTML specification. In this chapter, you will relate the JavaScript language with HTML.</p>
+
+    <h2 class="highlight">Use of < script > Element< /script ></h2>
+    <p class="post-text">The primary technique of inserting JavaScript into an HTML page is through the < script > element. Netscape created this < script >
+         element and first implemented it in the browser - Netscape Navigator version 2. Then it was later added to the formal HTML specification.</p>
+    
+         <h2 class="sub-highlight">Six attributes are provided by the < script > element. These are:</h2>
+    <br>
+        <p class="post-text">CSS is said to as the cornerstone design tool of the World Wide Web along with HTML and JavaScript. CSS is intended for enabling
+             the separation of appearance with content, which includes layout, coloring, and font styles. Such a smart approach can progress the accessibility of
+              content, offer more flexibility, and organize in the presentation order. It allows multiple web pages to contribute to formatting by giving relevant
+               CSS instructions in another file with the file extension .css. This separation of design implementation helps in reducing complexity as well as repetition 
+               in the structural content.</p>
+        
+          <br>
+          <table>
+            <tr>
+              <th>Attribute</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+                <th>async</th>
+                <th>Which indicates that the script ought to begin downloading immediately.</th>
+              </tr>
+              <tr>
+                <th>charset</th>
+                <th>Set the character set of the code particularizes using the src attribute.</th>
+              </tr>
+              <tr>
+                <th>defer</th>
+                <th>It indicates that the execution of the script can safely be deferred until after 
+                    the document's content has been fully parsed and displayed.</th>
+              </tr>
+              <tr>
+                <th>language</th>
+                <th>Which indicates that the code is using the scripting language.</th>
+              </tr>
+              <tr>
+                <th>src</th>
+                <th>Which indicates that an external file that holds the code is to be executed.</th>
+              </tr>
+              <tr>
+                <th>type</th>
+                <th>is used to replace language; indicates the content type (also called MIME type)
+                     of the used scripting language.</th>
+              </tr>     
+              </table>
+              <br>
+        
+              <h2 class="sub-highlight">Example:</h2>
+              <img src="l9.1.PNG" width="300" height="150">
+              <br>
+              <h2 class="highlight">JAVASCRIPT placement within HTML</h2>
+              <p class="post-text">Traditionally, all < script > elements were positioned within the < head > element on an HTML document's page, such as in the example given below:</p>
+              <br>
+              <h2 class="sub-highlight">Example:</h2>
+              <img src="l9.2.PNG" width="600" height="450">
+              <br>
+              <p class="post-text">The primary purpose of this structuring was to keep external file references, both CSS and JavaScript files, in the exact location. Moreover, including all JavaScript files in the < head > of a document designates that all of the JavaScript code must have to be downloaded, then parsed and interpreted before the page begins rendering. Rendering means the moment when the browser receives the opening < body > 
+                tag in an HTML code. For pages that require a lot of JavaScript code, this can cause a noticeable delay in page rendering, during which time the browser will be entirely blank.</p>
+                <h2 class="highlight">What is Deferred Attribute?</h2>
+                <p class="post-text">HTML 4.01 defines an attribute named defer for the < script > element. The use of defer indicates that a script won't change the page's structure as it 
+                executes. Likewise, the script can be run safely after parsing the whole page. Setting the defer attribute on an 
+                < script > element tells the browser that download should begin at once, but execution should be deferred:</p>
+                <br>
+                <h2 class="sub-highlight">Example:</h2>
+                <img src="l9.3.PNG" width="600" height="450">
+            
+</section>  
+
+<!-- Share -->
+<div class="share post-container">
+    <span class="share-title">Share this lesson</span>
+    <div class="social">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+    </div>
+</div>
+
+
+
+
+
+
+<!---------Footer------------>
+<div class="footer container">
+    <p>&#169; HTML Tutorial All Right Reserved
+    </p>
+    <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100078786067363"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ma.aizek/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/iam_kzm"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/kezia-marzan-981458175/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--JQUERY LINK-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+crossorigin="anonymous"></script>
+
+
+
+    <!--link to JS-->
+<script src="lesson.js"></script>
+
+
+
+
+
+</body>
+</html>
